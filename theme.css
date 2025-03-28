@@ -98,6 +98,7 @@
 }
 
 .theme-dark, .theme-light {
+  font-family: "LXGW WenKai Screen", sans-serif;
   --ribbon-background: var(--background-primary);
   --drag-ghost-background: var(--background-secondary-alt);
   --background-modifier-message: var(--background-secondary-alt);
