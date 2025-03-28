@@ -254,6 +254,7 @@ body:not(.is-grabbing) .nav-folder-title.is-being-dragged,
 
 /* Code syntax highlighting */
 code[class*='language-'], pre[class*='language-'] {
+  font-family: var(--font-default) !important;
   text-align: left !important;
   white-space: pre !important;
   word-spacing: normal !important;
@@ -265,6 +266,7 @@ code[class*='language-'], pre[class*='language-'] {
 }
 
 pre[class*='language-'] {
+  font-family: var(--font-default) !important;
   /* Code blocks */
   padding: 1em !important;
   margin: .5em 0 !important;
@@ -272,6 +274,7 @@ pre[class*='language-'] {
 }
 
 :not(pre)>code[class*='language-'] {
+  font-family: var(--font-default) !important;
   /* Inline code */
   padding: .1em !important;
   border-radius: .3em !important;
