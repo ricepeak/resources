@@ -1,0 +1,18 @@
+<!-- 评论系统 -->
+<div class="content" id="waline"></div>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+  init({
+    el: '#waline',
+    serverURL: 'https://ricepeak-w.netlify.app/.netlify/functions/comment',
+    dark: 'auto',
+    // enable: {{ comment }}
+  });
+</script>
+
+<!-- 网站统计 -->
+<div class="content" align="center">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <span id="busuanzi_container_site_pv" style="font-size: 13px; color: #888;">All rights reserved. views: <span id="busuanzi_value_site_pv"></span></span>
+</div>
